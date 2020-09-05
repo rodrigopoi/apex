@@ -3,12 +3,12 @@ package exec
 import (
 	"errors"
 
-	"github.com/apex/apex/exec"
+	"github.com/rodrigopoi/apex/exec"
 	"github.com/tj/cobra"
 
 	"os"
 
-	"github.com/apex/apex/cmd/apex/root"
+	"github.com/rodrigopoi/apex/cmd/apex/root"
 )
 
 var dir string

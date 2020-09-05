@@ -1,4 +1,6 @@
-module github.com/apex/apex
+module github.com/rodrigopoi/apex
+
+go 1.15
 
 require (
 	github.com/Unknwon/goconfig v0.0.0-20161121224340-87a46d97951e
@@ -12,7 +14,7 @@ require (
 	github.com/dustin/go-humanize v0.0.0-20171012181109-77ed807830b4
 	github.com/go-ini/ini v1.28.2
 	github.com/golang-commonmark/markdown v0.0.0-20170722161535-11a7a839e723
-	github.com/golang/mock v1.0.0
+	github.com/golang/mock v1.4.4
 	github.com/google/go-github v0.0.0-20171013030541-0f6d3ce15ec2
 	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
 	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
@@ -41,9 +43,10 @@ require (
 	github.com/tj/go-update v2.2.1+incompatible
 	github.com/tj/pflag v0.0.0-20160702191705-e367e44eec04
 	github.com/ulikunitz/xz v0.5.4
-	golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44
-	golang.org/x/net v0.0.0-20180519122554-57065200b4b0
-	golang.org/x/sys v0.0.0-20171012164349-43eea11bc926
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/net v0.0.0-20200822124328-c89045814202
+	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
 	golang.org/x/text v0.3.0
+	golang.org/x/tools v0.0.0-20200904185747-39188db58858 // indirect
 	gopkg.in/validator.v2 v2.0.0-20170814132753-460c83432a98
 )

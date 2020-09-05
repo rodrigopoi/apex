@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apex/apex/function"
+	"github.com/rodrigopoi/apex/function"
 	"github.com/apex/log"
 )
 

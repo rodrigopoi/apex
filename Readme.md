@@ -9,15 +9,15 @@ This project is designed for event-driven pipelines as it does not abstract away
 On macOS, Linux, or OpenBSD run the following:
 
 ```
-curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh
+curl https://raw.githubusercontent.com/rodrigopoi/apex/master/install.sh | sh
 ```
 
 Note that you may need to run the `sudo` version below, or alternatively chown `/usr/local`:
 ```
-curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sudo sh
+curl https://raw.githubusercontent.com/rodrigopoi/apex/master/install.sh | sudo sh
 ```
 
-On Windows download [binary](https://github.com/apex/apex/releases).
+On Windows download [binary](https://github.com/rodrigopoi/apex/releases).
 
 After downloading, rename binary file 'apex.exe', then add to PATH.
 
@@ -199,7 +199,7 @@ See the [Documentation](http://apex.run) for more information.
 
 [![Build Status](https://semaphoreci.com/api/v1/projects/d27ff350-b9c5-4d99-96e5-64b1afb441c5/649392/badge.svg)](https://semaphoreci.com/tj/apex)
 [![Slack Status](https://apex-slackin.herokuapp.com/badge.svg)](https://apex-slackin.herokuapp.com/)
-[![GoDoc](https://godoc.org/github.com/apex/apex?status.svg)](https://godoc.org/github.com/apex/apex)
+[![GoDoc](https://godoc.org/github.com/rodrigopoi/apex?status.svg)](https://godoc.org/github.com/rodrigopoi/apex)
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg) [![OpenCollective](https://opencollective.com/apex/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/apex/sponsors/badge.svg)](#sponsors)
 
